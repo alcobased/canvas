@@ -1,5 +1,14 @@
 #canvas {
-  background-color: #ccc;
-	margin: auto;
-	width: 50%;
+	margin: 10px;
+  	background-color: darkolivegreen;
+}
+
+body {
+	margin: 0;
+	background-color: #111;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
 }
