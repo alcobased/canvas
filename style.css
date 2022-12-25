@@ -1,6 +1,11 @@
-#canvas {
+#main-image-frame {
 	margin: 10px;
   	background-color: #222;
+}
+
+#zoom-image-frame {
+	margin: 10px;
+	background-color: #444;
 }
 
 body {
