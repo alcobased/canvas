@@ -1,19 +1,31 @@
-#main-image-frame {
-	margin: 10px;
-  	background-color: #222;
-}
-
-#zoom-image-frame {
-	margin: 10px;
-	background-color: #444;
-}
-
 body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: large;
+	color: #ddd;
 	margin: 0;
-	background-color: #111;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
 }
 
-#container {
-	display: flex;
-	justify-content: center;
+header {
+	background-color: #222;
+	height: 100px;
+}
+
+nav {
+	background-color: #666;
+	height: 50px;
+}
+
+main {
+	background-color: #444;
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+footer {
+	background-color: #222;
+	height: 100px;
 }
